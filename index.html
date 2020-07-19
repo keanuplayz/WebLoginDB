@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login.</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="panel"></div>
+    <div class="container demo">
+        <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+                <div id="panel">
+                    <div id="accent-panel">
+                        <h1 id="titleText">Login</h1>
+                        <h3 id="underText">Dont have an account?<br><br><a>Register.<a></h3>
+                    </div>
+                    <input id="nameField" type="text" placeholder="Username:">
+                    <input id="pwField" type="password" placeholder="Password:">
+                    <button id="loginButton">LOGIN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./lib/TweenLite.min.js"></script>
+    <script src="./lib/EasePack.min.js"></script>
+    <script src="./lib/demo.js"></script>
+    <script src="./lib/pouchdb.min.js"></script>
 
 </body>
+
 </html>
